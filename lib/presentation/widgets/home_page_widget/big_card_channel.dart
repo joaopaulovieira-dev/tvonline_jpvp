@@ -80,7 +80,7 @@ class BigCardChannels extends StatelessWidget {
                   width: 5,
                 ),
                 Text(
-                  "${channelsCount.toString()} Channels",
+                  "${channelsCount.toString()} Canais",
                   style: TextStyle(fontSize: 17, color: Colors.grey),
                 )
               ],

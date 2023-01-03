@@ -6,15 +6,15 @@ Future<List<ChannelObj>?> fetchChannels() async {
 
   try {
     Response response =
-        await Dio().get('https://iptv-org.github.io/iptv/channels.json');
+        await Dio().get('https://tvonline.joaopaulovieira.dev/channels.json');
     print("enzo");
     print(response.toString());
     for (var channel in response.data) {
       ChannelObj channelObj = ChannelObj.fromJson(channel);
 
-      // //Remove os canais adultos
+      //Remove os canais adultos
       if (channelObj.categories.isNotEmpty) {
-        if (channelObj.categories[0].name != "X") {
+        if (channelObj.categories[0].name != "XXX") {
           channels.add(channelObj);
         }
       }

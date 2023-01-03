@@ -42,6 +42,13 @@ class SortedByCountryPage extends ConsumerWidget {
                     MainAppbar(
                       widget: Row(
                         children: [
+                          const Text(
+                            "Canais",
+                            style: TextStyle(fontSize: 23, color: Colors.white),
+                          ),
+                          const SizedBox(
+                            width: 10,
+                          ),
                           Container(
                             padding: const EdgeInsets.symmetric(
                                 vertical: 1, horizontal: 7),
@@ -49,19 +56,12 @@ class SortedByCountryPage extends ConsumerWidget {
                                 borderRadius: BorderRadius.circular(9),
                                 color: Colors.red),
                             child: const Text(
-                              "Live",
+                              "Ao Vivo",
                               style: TextStyle(
                                   fontSize: 23,
                                   fontWeight: FontWeight.w800,
                                   color: Colors.white),
                             ),
-                          ),
-                          const SizedBox(
-                            width: 10,
-                          ),
-                          const Text(
-                            "Tv",
-                            style: TextStyle(fontSize: 23, color: Colors.white),
                           )
                         ],
                       ),
@@ -170,7 +170,7 @@ class SortedByCountryPage extends ConsumerWidget {
                                 count: 25,
                               ),
                               FavAllCard(
-                                text: "All",
+                                text: "",
                                 icon: FontAwesomeIcons.tv,
                                 count: allChanellsCount,
                               ),

@@ -15,12 +15,12 @@ class Setting extends StatelessWidget {
 
   void openTelegram() async {
     if (!await launch("https://telegram.me/NatureSmiling"))
-      throw 'Could not launch telegram';
+      throw 'Não foi possível iniciar Telegram.';
   }
 
   void openGithub() async {
     if (!await launch("https://github.com/NatureSmiling"))
-      throw 'Could not launch github';
+      throw 'Não foi possível iniciar Github.';
   }
 
   @override
@@ -77,7 +77,7 @@ class Setting extends StatelessWidget {
                         mainAxisCellCount: 2,
                         child: SettingCard(
                           function: ShowSnackBar(
-                                  context: context, text: "Em breve :)")
+                                  context: context, text: "Em desenvolvimento.")
                               .show,
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -90,7 +90,7 @@ class Setting extends StatelessWidget {
                                 height: 12,
                               ),
                               Text(
-                                "Saved show",
+                                "Salvar",
                                 style: TextStyle(
                                     color: Colors.white70, fontSize: 18),
                               )
@@ -102,7 +102,7 @@ class Setting extends StatelessWidget {
                         mainAxisCellCount: 2,
                         child: SettingCard(
                           function: ShowSnackBar(
-                                  context: context, text: "Em breve :)")
+                                  context: context, text: "Em desenvolvimento.")
                               .show,
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -116,7 +116,7 @@ class Setting extends StatelessWidget {
                                 height: 12,
                               ),
                               Text(
-                                "Toggle theme",
+                                "Tema",
                                 style: TextStyle(
                                     color: Colors.white70, fontSize: 18),
                               )
@@ -128,7 +128,7 @@ class Setting extends StatelessWidget {
                         mainAxisCellCount: 2,
                         child: SettingCard(
                           function: ShowSnackBar(
-                                  context: context, text: "Em breve :)")
+                                  context: context, text: "Em desenvolvimento.")
                               .show,
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -141,7 +141,7 @@ class Setting extends StatelessWidget {
                                 height: 12,
                               ),
                               Text(
-                                "Set alarm",
+                                "Alarme",
                                 style: TextStyle(
                                     color: Colors.white70, fontSize: 18),
                               )
@@ -174,13 +174,13 @@ class Setting extends StatelessWidget {
                       child: SettingCard(
                         function: ShowSnackBar(
                                 context: context,
-                                text: "No update available yet... :)")
+                                text: "Nenhuma atualização disponível.")
                             .show,
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
                             Text(
-                              "Check for update",
+                              "Checar Atualizações",
                               style: TextStyle(
                                   color: Colors.white70, fontSize: 18),
                             ),
@@ -198,7 +198,7 @@ class Setting extends StatelessWidget {
                         mainAxisCellCount: 3,
                         child: SettingCard(
                           function: ShowSnackBar(
-                                  context: context, text: "Coming sooooooon :)")
+                                  context: context, text: "Em desenvolvimento.")
                               .show,
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.center,
@@ -214,12 +214,12 @@ class Setting extends StatelessWidget {
                               ),
                               RichText(
                                 text: const TextSpan(
-                                    text: "Parental\n",
+                                    text: "Controle\n",
                                     style: TextStyle(
                                         color: Colors.white70, fontSize: 16),
                                     children: <TextSpan>[
                                       TextSpan(
-                                          text: "Control",
+                                          text: "de Pais",
                                           style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 25,
