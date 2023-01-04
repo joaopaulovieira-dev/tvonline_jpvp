@@ -50,7 +50,7 @@ class _SplashScreenState extends State<SplashScreen> {
               height: 20,
             ),
             const Text(
-              "Fique a vontade e assista seu canal favorito!",
+              "Fique a vontade para assistir seus canais favoritos.",
               style: TextStyle(fontSize: 20, color: Colors.white70),
             )
           ],

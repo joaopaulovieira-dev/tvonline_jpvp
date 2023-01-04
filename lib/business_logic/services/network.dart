@@ -7,8 +7,6 @@ Future<List<ChannelObj>?> fetchChannels() async {
   try {
     Response response =
         await Dio().get('https://tvonline.joaopaulovieira.dev/channels.json');
-    print("Lista de canais carregada com sucesso!");
-    print(response.toString());
     for (var channel in response.data) {
       ChannelObj channelObj = ChannelObj.fromJson(channel);
 
