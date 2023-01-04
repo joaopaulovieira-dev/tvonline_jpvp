@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable, deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -14,12 +16,12 @@ class Setting extends StatelessWidget {
   const Setting({Key? key}) : super(key: key);
 
   void openTelegram() async {
-    if (!await launch("https://telegram.me/NatureSmiling"))
+    if (!await launch("https://telegram.me/joaopaulovieira_dev"))
       throw 'Não foi possível iniciar Telegram.';
   }
 
   void openGithub() async {
-    if (!await launch("https://github.com/NatureSmiling"))
+    if (!await launch("https://github.com/joaopaulovieira-dev"))
       throw 'Não foi possível iniciar Github.';
   }
 

@@ -7,7 +7,7 @@ Future<List<ChannelObj>?> fetchChannels() async {
   try {
     Response response =
         await Dio().get('https://tvonline.joaopaulovieira.dev/channels.json');
-    print("enzo");
+    print("Lista de canais carregada com sucesso!");
     print(response.toString());
     for (var channel in response.data) {
       ChannelObj channelObj = ChannelObj.fromJson(channel);
@@ -18,9 +18,10 @@ Future<List<ChannelObj>?> fetchChannels() async {
           channels.add(channelObj);
         }
       }
+      print("Quantidade de canais adultos removidos: ${channels.length}");
     }
-    print("salmm");
 
+    //Remove os canais duplicados
     print(channels[0].countries[0].name);
     List<ChannelObj> repairChannels = channels.toSet().toList();
 
@@ -28,4 +29,5 @@ Future<List<ChannelObj>?> fetchChannels() async {
   } catch (e) {
     print(e);
   }
+  return null;
 }

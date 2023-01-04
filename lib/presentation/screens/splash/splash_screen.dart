@@ -1,8 +1,9 @@
+// ignore_for_file: unused_local_variable
+
 import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:tvonline_jpvp/core/consts.dart';
-import 'package:tvonline_jpvp/presentation/screens/home/menu.dart';
 import 'package:lottie/lottie.dart';
 import 'package:tvonline_jpvp/presentation/screens/home/home_page.dart';
 
@@ -30,9 +31,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     changePage();
-
     super.initState();
   }
 
@@ -51,7 +50,7 @@ class _SplashScreenState extends State<SplashScreen> {
               height: 20,
             ),
             const Text(
-              "Esta na hora de assistir TV 😜",
+              "Fique a vontade e assista seu canal favorito!",
               style: TextStyle(fontSize: 20, color: Colors.white70),
             )
           ],

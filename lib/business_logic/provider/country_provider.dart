@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:tvonline_jpvp/business_logic/model/channel.dart';
 import 'package:tvonline_jpvp/business_logic/provider/channelProvider.dart';

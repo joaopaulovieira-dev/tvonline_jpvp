@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:better_player/better_player.dart';
 import 'package:flutter/material.dart';
 import 'package:tvonline_jpvp/core/consts.dart';
