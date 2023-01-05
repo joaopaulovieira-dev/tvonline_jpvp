@@ -87,7 +87,7 @@ class _SortedByCategoryPageState extends State<SortedByCategoryPage> {
                                         child:
                                             Lottie.asset(kLoading, width: 60))),
                                 imageUrl: widget.channels[currentIndex].logo,
-                                // progressIndicatorBuilder: (context, url, progress) => ProgressIndicator(value: progress.progress,),
+                                //progressIndicatorBuilder: (context, url, progress) => ProgressIndicator(value: progress.progress,),
                                 fit: BoxFit.cover,
                               ),
                             )),

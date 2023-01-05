@@ -1,7 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="dev.joaopaulovieira.tvonline_jpvp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
     <queries>
         <!-- If your app opens https URLs -->
         <intent>

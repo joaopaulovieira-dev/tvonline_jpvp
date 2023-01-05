@@ -114,8 +114,8 @@ class Menu extends ConsumerWidget {
                     error: (error, stackTrace) => Center(
                       child: Text(error.toString()),
                     ),
-                    loading: () =>
-                        Lottie.asset(kLoading, width: size.width / 4),
+                    loading: () => Lottie.asset(kLoading,
+                        width: size.width / 4), //Load da tela inicial
                   ),
                 ),
                 const SizedBox(
