@@ -58,7 +58,7 @@ final channelCardProvider = StateProvider<List<ChannelModel>>((ref) {
         iconAddress: "assets/icons/entertainment.svg",
         channelCount: 0),
     ChannelModel(
-        name: "Estilo de Vida",
+        name: "Documentário",
         iconAddress: "assets/icons/lifeStyle.svg",
         channelCount: 0),
     ChannelModel(
@@ -74,10 +74,40 @@ final channelCardProvider = StateProvider<List<ChannelModel>>((ref) {
         iconAddress: "assets/icons/family.svg",
         channelCount: 0),
     ChannelModel(
-        name: "Shop", iconAddress: "assets/icons/shop.svg", channelCount: 0),
+        name: "Compras", iconAddress: "assets/icons/shop.svg", channelCount: 0),
   ];
   return channelsCard;
 });
 
 
 //Aqui fica os estilos de canais nos card do menu principal (HomePage).
+
+// Nomes
+// Live TV
+// TV Aberta
+// Esporte
+// Notícia
+// Gospel
+// Série
+// Filme
+// Desenho
+// Anime
+// Música
+// Carro
+// Cozinha
+// Infantil
+// Educação
+// Negócio
+// Relaxamento
+// Entretenimento
+// Documentário
+// Ciência
+// Comédia
+// Família
+// Compras
+
+
+//Arquivos para mudar os tipos de canais: 
+// lib\core\consts.dart
+// lib\business_logic\provider\categoryprovider.dart
+// lib\business_logic\provider\channelCardprovider.dart

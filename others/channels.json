@@ -3,8 +3,8 @@
         "logo": "https://i.imgur.com/wULpnYR.png",
         "url": "https://5cf4a2c2512a2.streamlock.net/dgrau/dgrau/playlist.m3u8",
         "categories": [{
-            "name": "Sports",
-            "slug": "sports"
+            "name": "Esporte",
+            "slug": "esporte"
         }],
         "countries": [{
             "name": "Brazil",
@@ -24,8 +24,8 @@
         "logo": "https://od.lk/s/MF8yMjU5ODE1MzJf/MyTime_260x260.png",
         "url": "https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8",
         "categories": [{
-            "name": "Movies",
-            "slug": "movies"
+            "name": "Filme",
+            "slug": "filme"
         }],
         "countries": [{
             "name": "Brazil",
@@ -46,8 +46,8 @@
         "logo": "https://2.bp.blogspot.com/-6Q_s4tbCd7M/XryzwCYcJGI/AAAAAAAACyk/cMTBHT_RNWA2Um6gcRlrh2RSf9v0KxJAwCLcBGAsYHQ/s320/Screenshot_2020-05-13-23-48-42.png",
         "url": "https://stmv1.srvif.com/retrotv/retrotv/chunklist_w318448940.m3u8",
         "categories": [{
-            "name": "Animation",
-            "slug": "animation"
+            "name": "Desenho",
+            "slug": "desenho"
         }],
         "countries": [{
             "name": "Brazil",
@@ -60,6 +60,1152 @@
         "tvg": {
             "id": "Retrocartoon.br",
             "name": "Retro Cartoon",
+            "url": ""
+        }
+    },
+    {
+        "name": "Jetsons",
+        "logo": "https://1.bp.blogspot.com/-0Iq6wbVRaAg/YFDNyFtWiqI/AAAAAAAAEZk/N-oqR72a8Qsc5_0zN7DpoBalbUuienn-gCLcBGAsYHQ/s0/JETSONS%2BTV.png",
+        "url": "https://stmv1.srvif.com/jetsontv/jetsontv/chunklist_w279459319.m3u8",
+        "categories": [{
+            "name": "Desenho",
+            "slug": "desenho"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Jetsons.br",
+            "name": "Jetsons",
+            "url": ""
+        }
+    },
+    {
+        "name": "Contv        ",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://contvanime-plex-ingest.cinedigm.com/masterR1080p.m3u8",
+        "categories": [{
+            "name": "Desenho",
+            "slug": "desenho"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Contv.br",
+            "name": "Contv",
+            "url": ""
+        }
+    },
+    {
+        "name": "Loading",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv.video.expressolider.com.br/loadingtv/loadingtv/chunklist_w1224704461.m3u8",
+        "categories": [{
+            "name": "Desenho",
+            "slug": "desenho"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Loading.br",
+            "name": "Loading",
+            "url": ""
+        }
+    },
+    {
+        "name": "Gospel Cartoon",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv.video.expressolider.com.br/loadingtv/loadingtv/chunklist_w1224704461.m3u8",
+        "categories": [{
+            "name": "Gospel",
+            "slug": "gospel"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Gospel Cartoon.br",
+            "name": "Gospel Cartoon",
+            "url": ""
+        }
+    },
+    {
+        "name": "Anime TV",
+        "logo": "https://1.bp.blogspot.com/-FUSTK4Z1fQs/X8zzV_cWjHI/AAAAAAAAD6E/eNDHUFUuADsTAkTJTcT_ulbcI9-y6IisACLcBGAsYHQ/s0/ANIME%2BTV.png",
+        "url": "https://stmv1.srvif.com/animetv/animetv/chunklist_w617070452.m3u8",
+        "categories": [{
+            "name": "Anime",
+            "slug": "anime"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Anime TV.br",
+            "name": "Anime TV",
+            "url": ""
+        }
+    },
+
+
+    {
+        "name": "TV JN",
+        "logo": "http://www.cxtv.com.br/img/Tvs/Logo/9d7d1a4b47e3583e7c715cafee8cbd02.png",
+        "url": "https://video01.logicahost.com.br/tvjornaldonordeste/tvjornaldonordeste/chunklist_w1914371444.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "TV JN.br",
+            "name": "TV JN",
+            "url": ""
+        }
+    },
+    {
+        "name": "Nova Play",
+        "logo": "https://1.bp.blogspot.com/-1lRRmfoFjqw/YJLdfKPVFjI/AAAAAAAAEos/RKs26haVlcU4N1pH8JUyadk71S7IECBVgCLcBGAsYHQ/s0/TV%2BNOVA%2BPLAY%2B2.png",
+        "url": "https://srv4.zcast.com.br/tvnovaplay/tvnovaplay/chunklist_w1212094222.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Nova Play.br",
+            "name": "Nova Play",
+            "url": ""
+        }
+    },
+    {
+        "name": "Channel 1",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://srv4.zcast.com.br/tvnovaplay/tvnovaplay/chunklist_w1212094222.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Channel 1",
+            "name": "Channel 1",
+            "url": ""
+        }
+    },
+    {
+        "name": "Lass",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://tv02.zas.media:1936/lasstv/lasstv/chunklist_w574669255.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "lass",
+            "name": "lass",
+            "url": ""
+        }
+    },
+    {
+        "name": "Jsid",
+        "logo": "https://3.bp.blogspot.com/-2Vvd-kuG9_0/XQwsOjJQHuI/AAAAAAAABJo/vh8VDKW1KVEwtVMRRkxX--RQj-USBoEnwCLcBGAs/s320/Screenshot_2019-06-20-21-12-40.png",
+        "url": "https://livefocamundo.com:8081/tvjsid/tracks-v1a1/mono.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Jsid",
+            "name": "Jsid",
+            "url": ""
+        }
+    },
+    {
+        "name": "Jsid",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv1.paineltv.net/glnfilmes/glnfilmes/chunklist_w2030558459.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Jsid",
+            "name": "Jsid",
+            "url": ""
+        }
+    },
+    {
+        "name": "Imperial",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://5eaa6849d0971.streamlock.net/tvimperialnet/tvimperialnet/chunklist_w609975464.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Imperial",
+            "name": "Imperial",
+            "url": ""
+        }
+    },
+    {
+        "name": "Aw Tv",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://ebocast.ebosystems.com.br:3070/live/awtvlive.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Aw Tv",
+            "name": "Aw Tv",
+            "url": ""
+        }
+    },
+    {
+        "name": "Vila",
+        "logo": "http://www.cxtv.com.br/img/Tvs/Logo/b6989c697a1327a22d41bf4ff435320b.jpg",
+        "url": "https://596639ebdd89b.streamlock.net/8072/8072/chunklist_w1219598114.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Vila",
+            "name": "Vila",
+            "url": ""
+        }
+    },
+    {
+        "name": "Tela Viva",
+        "logo": "https://1.bp.blogspot.com/-ELV1e2LJlYU/YCaxFOrmHvI/AAAAAAAAERE/sBOPPVuvQIw0dobCP2RoBxux_0f-iiRRgCLcBGAsYHQ/s0/TELA%2BVIVA%2BTV.png",
+        "url": "https://srv4.zcast.com.br/telavivatv/telavivatv/chunklist_w1609777683.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Tela Viva",
+            "name": "Tela Viva",
+            "url": ""
+        }
+    },
+    {
+        "name": "Entornosul",
+        "logo": "https://1.bp.blogspot.com/-4YhZ8LozzVI/X5C1dZCh6vI/AAAAAAAADe4/Z_ylY4Wq-181AqnY-WRRgv6eCfM59S0vgCLcBGAsYHQ/s0/ENTORNO%2BSUL%2BWEB%2BTV.png",
+        "url": "https://video01.kshost.com.br:4443/manoel2072/manoel2072/chunklist_w1732984734.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Entornosul",
+            "name": "Entornosul",
+            "url": ""
+        }
+    },
+    {
+        "name": "Encauca",
+        "logo": "https://1.bp.blogspot.com/-0Bb7qlBYScY/X6Aug7qQzGI/AAAAAAAADrs/b6QSHfY8TZoj0UJ5tegjhVAoaabLtkBWQCLcBGAsYHQ/s0/TV%2BENCAUCA.png",
+        "url": "https://srv1.paineldevideo.com/encaucafm/encaucafm/chunklist_w55789487.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Encauca",
+            "name": "Encauca",
+            "url": ""
+        }
+    },
+    {
+        "name": "TV Sul ",
+        "logo": "https://2.bp.blogspot.com/-jGLoFHYizBU/XvP9YTPEZuI/AAAAAAAADDA/3zgVhWsfXv4v5pIKW5O0-1-NdMEYv9kZQCLcBGAsYHQ/s320/2020-06-24%2B22.12.15.png",
+        "url": "https://5a0c3936c25c8.streamlock.net/8032/8032/chunklist_w947922390.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "TV Sul ",
+            "name": "TV Sul ",
+            "url": ""
+        }
+    },
+    {
+        "name": "Classique Western",
+        "logo": "https://2.bp.blogspot.com/-Hl4ZQg-OOXs/XYAzPJFp3GI/AAAAAAAAB7Q/KI2zaXaNAUo9Je2RJ39E93EOdJBAJxgfgCLcBGAsYHQ/s320/Screenshot_2019-09-16-22-00-39.png",
+        "url": "https://stmv1.srvif.com/classiquew/classiquew/chunklist_w1999699286.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Classique Western",
+            "name": "Classique Western",
+            "url": ""
+        }
+    },
+    {
+        "name": "Classique",
+        "logo": "https://2.bp.blogspot.com/-Hl4ZQg-OOXs/XYAzPJFp3GI/AAAAAAAAB7Q/KI2zaXaNAUo9Je2RJ39E93EOdJBAJxgfgCLcBGAsYHQ/s320/Screenshot_2019-09-16-22-00-39.png",
+        "url": "https://stmv1.srvif.com/classique/classique/chunklist_w1919154997.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Classique",
+            "name": "Classique",
+            "url": ""
+        }
+    },
+    {
+        "name": "Classique2",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv1.srvif.com/classiquetv1/classiquetv1/chunklist_w227761684.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Classique2",
+            "name": "Classique2",
+            "url": ""
+        }
+    },
+    {
+        "name": "Ghost TV",
+        "logo": "https://www.locomotiontv.com.br/assets/img/logo-cghost.png",
+        "url": "https://stmv.video.expressolider.com.br/ghostv/ghostv/chunklist_w500798363.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Ghost TV",
+            "name": "Ghost TV",
+            "url": ""
+        }
+    },
+    {
+        "name": "As Panteras",
+        "logo": "https://1.bp.blogspot.com/-2wJWDKQtd4w/X5Hf-KMMXBI/AAAAAAAADgk/eGIma0JURzI_xqRcCYPGykmQ3wifE5KQgCLcBGAsYHQ/s0/AS%2BPANTERAS.png",
+        "url": "https://stmv1.srvif.com/tvserie/tvserie/chunklist_w173840741.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "As Panteras",
+            "name": "As Panteras",
+            "url": ""
+        }
+    },
+    {
+        "name": "Mulher Bionica",
+        "logo": "https://1.bp.blogspot.com/-Vwn-6-cgyZ4/X5HnLPZ8TlI/AAAAAAAADg4/0E3x3g1wEDgaHfCxa4MmNvHmXhKssg1VQCLcBGAsYHQ/s0/A%2BMULHER%2BBI%25C3%2594NICA.png",
+        "url": "https://stmv1.srvif.com/tvserie2/tvserie2/chunklist_w1556462638.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Mulher Bionica",
+            "name": "Mulher Bionica",
+            "url": ""
+        }
+    },
+    {
+        "name": "Star Trek",
+        "logo": "https://1.bp.blogspot.com/-T4ejZp3RbpE/X49JM5K2hdI/AAAAAAAADd8/2PvwOy_mnS09HXIcaC2sGLmSVpVVtvGOQCLcBGAsYHQ/s0/STAR%2BTREK.png",
+        "url": "https://stmv1.srvif.com/tvserie3/tvserie3/chunklist_w1440479755.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Star Trek",
+            "name": "Star Trek",
+            "url": ""
+        }
+    },
+    {
+        "name": "Chips",
+        "logo": "https://1.bp.blogspot.com/-_YURHwLOTdY/X_sfomVkvHI/AAAAAAAAEHs/LSMWc19qjxUylwoEcI4YINE2YBHGsMC5wCLcBGAsYHQ/s0/C",
+        "url": "https://stmv1.srvif.com/tvserie4/tvserie4/chunklist_w1474334923.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Chips",
+            "name": "Chips",
+            "url": ""
+        }
+    },
+    {
+        "name": "Hogansheroes",
+        "logo": "https://1.bp.blogspot.com/-w43wGnoTyGk/YCLF2uzS16I/AAAAAAAAEP0/xJguFMvzNZQQvYI_pU9CLJAovuCkUBeIwCLcBGAsYHQ/s0/GUERRA%252C%2BSOMBRA%2BE%2B%25C3%2581GUA%2BFRESCA.png",
+        "url": "https://stmv1.srvif.com/tvserie5/tvserie5/chunklist_w983909720.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Hogansheroes",
+            "name": "Hogansheroes",
+            "url": ""
+        }
+    },
+    {
+        "name": "Três Patetas",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv1.srvif.com/tvserie6/tvserie6/chunklist_w414854403.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Três Patetas",
+            "name": "Três Patetas",
+            "url": ""
+        }
+    },
+    {
+        "name": "Agente 86",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv1.srvif.com/tvserie7/tvserie7/chunklist_w554878438.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Agente 86",
+            "name": "Agente 86",
+            "url": ""
+        }
+    },
+    {
+        "name": "TV Clássicos",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://tv01.livemustv.com.br/livemustv7426/livemustv7426/chunklist_w889668456.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "TV Clássicos",
+            "name": "TV Clássicos",
+            "url": ""
+        }
+    },
+    {
+        "name": "Bons Tempos",
+        "logo": "https://1.bp.blogspot.com/-d-mnTNCYp_I/X77N431tLcI/AAAAAAAAD28/BGqvxaVveZQtW-eArJwOuarVS2YEQ5kZACLcBGAsYHQ/s0/BONS%2BTEMPOS%2BTV.png",
+        "url": "https://tv01.livemustv.com.br/rivaldo6209/rivaldo6209/chunklist_w186200016.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Bons Tempos",
+            "name": "Bons Tempos",
+            "url": ""
+        }
+    },
+    {
+        "name": "Canal 29",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv1.srvif.com/canal29/canal29/chunklist_w2125553746.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Canal 29",
+            "name": "Canal 29",
+            "url": ""
+        }
+    },
+    {
+        "name": "Vintage",
+        "logo": "https://1.bp.blogspot.com/-lKMka-gm-Tw/X5tuToPtoLI/AAAAAAAADow/kULmTt_ZgZ8Z-ypKXVxJKDGs2msf4TNdgCPcBGAYYCw/s0/VINTAGE%2BTV.png",
+        "url": "https://stmv1.srvif.com/webvintage/webvintage/playlist.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Vintage",
+            "name": "Vintage",
+            "url": ""
+        }
+    },
+    {
+        "name": "Unitv",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv1.srvif.com/unifm/unifm/chunklist_w782229202.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Unitv",
+            "name": "Unitv",
+            "url": ""
+        }
+    },
+    {
+        "name": "XTreme",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv1.voxtvhd.com.br/xtremetv/xtremetv/chunklist_w478706324.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "XTreme",
+            "name": "XTreme",
+            "url": ""
+        }
+    },
+    {
+        "name": "Cinepix",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv1.srvif.com/cinepix/cinepix/chunklist_w2128509316.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Cinepix",
+            "name": "Cinepix",
+            "url": ""
+        }
+    },
+    {
+        "name": "TV Cine",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv1.srvif.com/channel1/channel1/chunklist_w1344776575.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "TV Cine",
+            "name": "TV Cine",
+            "url": ""
+        }
+    },
+    {
+        "name": "Agua Boa",
+        "logo": "http://www.tvaguaboa.com.br/banners/04092019115122.jpg",
+        "url": "http://painelvj.com.br/tvaguaboa2/tvaguaboa2.sdp/chunklist_w1116467602.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Agua Boa",
+            "name": "Agua Boa",
+            "url": ""
+        }
+    },
+    {
+        "name": "CTV",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv1.samcast.com.br/ctvpb/ctvpb/chunklist_w19140926.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "CTV",
+            "name": "CTV",
+            "url": ""
+        }
+    },
+    {
+        "name": "ISTV",
+        "logo": "https://3.bp.blogspot.com/-Dz8hWPkHzyU/XWAeyKtSHxI/AAAAAAAABjQ/GQCk1qkykk8I3dfqTtUOSNGTgI9cji-vwCLcBGAs/s320/Screenshot_2019-08-23-14-11-58.png",
+        "url": "https://cdn.jmvstream.com/w/LVW-9883/LVW9883_lFcfKysrHF/chunklist.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "ISTV",
+            "name": "ISTV",
+            "url": ""
+        }
+    },
+    {
+        "name": "Central TV",
+        "logo": "http://www.cxtv.com.br/img/Tvs/Logo/80609e7626a827d28c6c277ed8252b0e.png",
+        "url": "https://serv1.redecentraltv.videovox.pw/serv1-redecentraltv/serv1-redecentraltv/chunklist_w2100483638.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Central TV",
+            "name": "Central TV",
+            "url": ""
+        }
+    },
+    {
+        "name": "Natal",
+        "logo": "https://4.bp.blogspot.com/-Ncu3PyRUS7E/XNzjm4CVk1I/AAAAAAAAA3Q/tOw-OymRFDY4xF11fUfvKsqnmc6kV1HMwCPcBGAYYCw/s320/Screenshot_2019-05-16-01-11-16.png",
+        "url": "https://stmv1.srvstm.com/antonioflavio9545/antonioflavio9545/chunklist_w765867555.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Natal",
+            "name": "Natal",
+            "url": ""
+        }
+    },
+    {
+        "name": "UTV",
+        "logo": "https://4.bp.blogspot.com/-SYIWbHG-aSM/XrRRU-iRKmI/AAAAAAAACuE/tQg0pyXxD_oCo342xc8PRomOmVEmCV2NACLcBGAsYHQ/s320/Screenshot_2020-05-07-15-10-19.png",
+        "url": "https://srv4.zcast.com.br/redetvoficial/redetvoficial/chunklist_w1138149130.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "UTV",
+            "name": "UTV",
+            "url": ""
+        }
+    },
+    {
+        "name": "Progresso",
+        "logo": "https://1.bp.blogspot.com/-2Nzqwhtd0qQ/XqXrtj4hFbI/AAAAAAAACow/zc8aMo4w6us8CoOF4FN3i3YPr_N7kegrQCLcBGAsYHQ/s320/Screenshot_2020-04-26-17-09-52.png",
+        "url": "https://5a0c3936c25c8.streamlock.net/oprogressotvstation/oprogressotvstation/chunklist_w163705624.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Progresso",
+            "name": "Progresso",
+            "url": ""
+        }
+    },
+    {
+        "name": "Aliança",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://video01.logicahost.com.br/tvalianca/tvalianca/chunklist_w402441908.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Aliança",
+            "name": "Aliança",
+            "url": ""
+        }
+    },
+    {
+        "name": "Sonata",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv1.srvstm.com/tiago4617/tiago4617/chunklist_w1454621499.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Sonata",
+            "name": "Sonata",
+            "url": ""
+        }
+    },
+    {
+        "name": "CW TV",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://5c483b9d1019c.streamlock.net/8186/8186/chunklist_w1423781271.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "CW TV",
+            "name": "CW TV",
+            "url": ""
+        }
+    },
+    {
+        "name": "TV Lagoa",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://stmv2.voxtvhd.com.br/tvlagoadantas/tvlagoadantas/chunklist_w1262479325.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "TV Lagoa",
+            "name": "TV Lagoa",
+            "url": ""
+        }
+    },
+    {
+        "name": "San Jones",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://video01.kshost.com.br:4443/marilia2344/marilia2344/chunklist_w1766823961.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "San Jones",
+            "name": "San Jones",
+            "url": ""
+        }
+    },
+    {
+        "name": "Fronteira",
+        "logo": "http://www.casajapon.com/assets/img/no-image/400x400_crop/no-image.jpg",
+        "url": "https://srv4.zcast.com.br/fronteiramovies/fronteiramovies/chunklist_w1487374814.m3u8",
+        "categories": [{
+            "name": "Filme",
+            "slug": "filme"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Fronteira",
+            "name": "Fronteira",
+            "url": ""
+        }
+    },
+    {
+        "name": "Gospel Movies",
+        "logo": "https://4.bp.blogspot.com/-gmkfp9SEBa4/XQlbf34HgiI/AAAAAAAABFo/X1AjxHlisW0ciHUcHpOkiUc1QD-p4I-GACPcBGAYYCw/s320/Screenshot_2019-06-18-16-51-47.png",
+        "url": "https://stmv1.srvif.com/gospelf/gospelf/chunklist_w295677575.m3u8",
+        "categories": [{
+            "name": "Gospel",
+            "slug": "gospel"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Gospel Movies",
+            "name": "Gospel Movies",
+            "url": ""
+        }
+    },
+    {
+        "name": "Classique Series",
+        "logo": "linklogo",
+        "url": "linkiptv",
+        "categories": [{
+            "name": "Série",
+            "slug": "série"
+        }],
+        "countries": [{
+            "name": "Brazil",
+            "code": "BR"
+        }],
+        "languages": [{
+            "name": "Portuguese",
+            "code": "por"
+        }],
+        "tvg": {
+            "id": "Classique Series",
+            "name": "Classique Series",
             "url": ""
         }
     }

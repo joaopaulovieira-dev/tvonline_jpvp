@@ -45,162 +45,174 @@ final categoryProvider =
           x++;
 
           switch (channel.categories[0].name) {
-            case "Animation":
+            case "TV Aberta":
               categoriesChannels.state.forEach((element) =>
-                  element.name == "Animation" ? element.channelCount++ : null);
-              sortedByCategory["Animation"]!.add(channel);
+                  element.name == "TV Aberta" ? element.channelCount++ : null);
+              sortedByCategory["TV Aberta"]!.add(channel);
 
               break;
-            case "Business":
+            case "Esporte":
               for (var element in categoriesChannels.state) {
-                element.name == "Business" ? element.channelCount++ : null;
+                element.name == "Esporte" ? element.channelCount++ : null;
               }
 
-              sortedByCategory["Business"]!.add(channel);
+              sortedByCategory["Esporte"]!.add(channel);
               break;
 
-            case "Comedy":
+            case "Notícia":
               for (var element in categoriesChannels.state) {
-                element.name == "Comedy" ? element.channelCount++ : null;
+                element.name == "Notícia" ? element.channelCount++ : null;
               }
 
-              sortedByCategory["Comedy"]!.add(channel);
+              sortedByCategory["Notícia"]!.add(channel);
 
               break;
-            case "Cooking":
+            case "Gospel":
               for (var element in categoriesChannels.state) {
-                element.name == "Cooking" ? element.channelCount++ : null;
+                element.name == "Gospel" ? element.channelCount++ : null;
               }
 
-              sortedByCategory["Cooking"]!.add(channel);
+              sortedByCategory["Gospel"]!.add(channel);
 
               break;
 
-            case "Education":
+            case "Série":
               for (var element in categoriesChannels.state) {
-                element.name == "Education" ? element.channelCount++ : null;
+                element.name == "Série" ? element.channelCount++ : null;
               }
-              sortedByCategory["Education"]!.add(channel);
+              sortedByCategory["Série"]!.add(channel);
 
               break;
-            case "Entertainment":
+            case "Filme":
               for (var element in categoriesChannels.state) {
-                element.name == "Entertainment" ? element.channelCount++ : null;
-              }
-
-              sortedByCategory["Entertainment"]!.add(channel);
-
-              break;
-
-            case "Family":
-              for (var element in categoriesChannels.state) {
-                element.name == "Family" ? element.channelCount++ : null;
+                element.name == "Filme" ? element.channelCount++ : null;
               }
 
-              sortedByCategory["Family"]!.add(channel);
+              sortedByCategory["Filme"]!.add(channel);
 
               break;
 
-            case "Kids":
+            case "Desenho":
               for (var element in categoriesChannels.state) {
-                element.name == "Kids" ? element.channelCount++ : null;
-              }
-              sortedByCategory["Kids"]!.add(channel);
-
-              break;
-
-            case "Lifestyle":
-              sortedByCategory["Lifestyle"]!.add(channel);
-
-              break;
-
-            case "Local":
-              sortedByCategory["Local"]!.add(channel);
-
-              break;
-            case "Movies":
-              for (var element in categoriesChannels.state) {
-                element.name == "Movies" ? element.channelCount++ : null;
+                element.name == "Desenho" ? element.channelCount++ : null;
               }
 
-              sortedByCategory["Movies"]!.add(channel);
+              sortedByCategory["Desenho"]!.add(channel);
 
               break;
-            case "Music":
+
+            case "Anime":
               for (var element in categoriesChannels.state) {
-                element.name == "Music" ? element.channelCount++ : null;
+                element.name == "Anime" ? element.channelCount++ : null;
               }
-
-              sortedByCategory["Music"]!.add(channel);
+              sortedByCategory["Anime"]!.add(channel);
 
               break;
-            case "News":
+
+            case "Música":
               for (var element in categoriesChannels.state) {
-                element.name == "News" ? element.channelCount++ : null;
+                element.name == "Música" ? element.channelCount++ : null;
               }
-
-              sortedByCategory["News"]!.add(channel);
-
-              break;
-
-            case "Relax":
-              sortedByCategory["Relax"]!.add(channel);
+              sortedByCategory["Música"]!.add(channel);
 
               break;
-            case "Religious":
+
+            case "Carro":
               for (var element in categoriesChannels.state) {
-                element.name == "Religious" ? element.channelCount++ : null;
+                element.name == "Carro" ? element.channelCount++ : null;
               }
-
-              sortedByCategory["Religious"]!.add(channel);
+              sortedByCategory["Carro"]!.add(channel);
 
               break;
-            case "Science":
+
+            case "Cozinha":
               for (var element in categoriesChannels.state) {
-                element.name == "Science" ? element.channelCount++ : null;
+                element.name == "Cozinha" ? element.channelCount++ : null;
               }
-
-              sortedByCategory["Science"]!.add(channel);
+              sortedByCategory["Cozinha"]!.add(channel);
 
               break;
-            case "Series":
+
+            case "Infantil":
               for (var element in categoriesChannels.state) {
-                element.name == "Series" ? element.channelCount++ : null;
+                element.name == "Infantil" ? element.channelCount++ : null;
               }
-
-              sortedByCategory["Series"]!.add(channel);
+              sortedByCategory["Infantil"]!.add(channel);
 
               break;
-            case "Shop":
-              sortedByCategory["Shop"]!.add(channel);
+
+            case "Educação":
               for (var element in categoriesChannels.state) {
-                element.name == "Shop" ? element.channelCount++ : null;
+                element.name == "Educação" ? element.channelCount++ : null;
               }
+              sortedByCategory["Educação"]!.add(channel);
 
               break;
 
-            case "Sports":
-              categoriesChannels.state.forEach((element) =>
-                  element.name == "Sports" ? element.channelCount++ : null);
-
-              sortedByCategory["Sports"]!.add(channel);
-
-              break;
-
-            case "Travel":
-              sortedByCategory["Travel"]!.add(channel);
-
-              break;
-            case "Weather":
-              sortedByCategory["Weather"]!.add(channel);
+            case "Negócio":
+              for (var element in categoriesChannels.state) {
+                element.name == "Negócio" ? element.channelCount++ : null;
+              }
+              sortedByCategory["Negócio"]!.add(channel);
 
               break;
 
-            case "Auto":
-              categoriesChannels.state.forEach((element) =>
-                  element.name == "Auto" ? element.channelCount++ : null);
+            case "Relaxamento":
+              for (var element in categoriesChannels.state) {
+                element.name == "Relaxamento" ? element.channelCount++ : null;
+              }
+              sortedByCategory["Relaxamento"]!.add(channel);
 
-              sortedByCategory["Auto"]!.add(channel);
+              break;
+
+            case "Entretenimento":
+              for (var element in categoriesChannels.state) {
+                element.name == "Entretenimento"
+                    ? element.channelCount++
+                    : null;
+              }
+              sortedByCategory["Entretenimento"]!.add(channel);
+
+              break;
+
+            case "Documentário":
+              for (var element in categoriesChannels.state) {
+                element.name == "Documentário" ? element.channelCount++ : null;
+              }
+              sortedByCategory["Documentário"]!.add(channel);
+
+              break;
+
+            case "Ciência":
+              for (var element in categoriesChannels.state) {
+                element.name == "Ciência" ? element.channelCount++ : null;
+              }
+              sortedByCategory["Ciência"]!.add(channel);
+
+              break;
+
+            case "Comédia":
+              for (var element in categoriesChannels.state) {
+                element.name == "Comédia" ? element.channelCount++ : null;
+              }
+              sortedByCategory["Comédia"]!.add(channel);
+
+              break;
+
+            case "Família":
+              for (var element in categoriesChannels.state) {
+                element.name == "Família" ? element.channelCount++ : null;
+              }
+              sortedByCategory["Família"]!.add(channel);
+
+              break;
+
+            case "Compras":
+              for (var element in categoriesChannels.state) {
+                element.name == "Compras" ? element.channelCount++ : null;
+              }
+              sortedByCategory["Compras"]!.add(channel);
+
               break;
 
             default:
